@@ -19,12 +19,14 @@ nav {
     padding: 25px 100px 25px 95px;
     justify-content: space-between;
     display: flex;
+    
 }
 
 .nav-link {
     font-size: 24px;
     color: white;
     text-decoration: none;
+    
 }
 
 h1 {
@@ -41,10 +43,11 @@ p {
 
 .info {
     flex-wrap: wrap;
-    width: 1100px;
-    margin: 0px;
+   max-width: 1100px;
+    margin: 0px auto 0px auto;
     display: flex;
     padding: 10px;
+    align-items: center;
 }
 
 article {
@@ -61,6 +64,7 @@ article {
     font-size: 24px;
     text-align: center;
     padding: 10px 75px 10px 75px;
+    display: block;
 }
 
 footer {
